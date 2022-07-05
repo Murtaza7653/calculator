@@ -7,11 +7,11 @@ import twitter from './images/twitter.png';
 const About = () => {
   return (
     <div className='container'>
-        <h1 className='my-3'>About Us</h1>
+        <h1 className='my-3' style={{color: "#000814"}}>About Us</h1>
       <div className="accordion"  id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingOne">
-      <button className="accordion-button" style={{backgroundColor: "#333741", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button className="accordion-button" style={{backgroundColor: "#000814", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         About the Developer
       </button>
     </h2>
@@ -23,7 +23,7 @@ const About = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingTwo">
-      <button className="accordion-button collapsed" style={{backgroundColor: "#333741", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <button className="accordion-button collapsed" style={{backgroundColor: "#000814", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Contact Us
       </button>
     </h2>
@@ -41,7 +41,7 @@ const About = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingThree">
-      <button className="accordion-button collapsed" style={{backgroundColor: "#333741", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button className="accordion-button collapsed" style={{backgroundColor: "#000814", color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Queries
       </button>
     </h2>
