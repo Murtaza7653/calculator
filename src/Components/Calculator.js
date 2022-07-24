@@ -56,7 +56,7 @@ export default function Calculator() {
 
     return (
         <>
-        <h3 className='text-center my-2' style={{color: "#000814"}}>Hello! This is a Calculator developed using React JS.</h3>
+        <h3 className='text-center my-3' style={{color: "#000814"}}>Hello! This is a Calculator developed using React JS.</h3>
             <div className="App my-3">
                 <div className="calculator">
                     <div className="display">

@@ -6,7 +6,7 @@ import twitter from './images/twitter.png';
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className='container' style={{minHeight:"76vh"}}>
         <h1 className='my-3' style={{color: "#000814"}}>About Us</h1>
       <div className="accordion"  id="accordionExample">
   <div className="accordion-item">

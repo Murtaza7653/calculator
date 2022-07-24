@@ -17,7 +17,6 @@ export default function Navbar() {
                         <li className="nav-item mx-2 my-3">
                             <Link className="nav-link active" aria-current="page" to="/">Calculator</Link>
                         </li>
-                        <td className='my-3' style={{ borderLeft: "2px solid white", padding: "2px" }}></td>
                         <li className="nav-item mx-2 my-3">
                             <Link className="nav-link active" to="/about">About Us</Link>
                         </li>
